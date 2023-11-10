@@ -154,10 +154,7 @@ class _Qr extends State<qrscan> {
     controller.scannedDataStream.listen((scanData) {
       setState(() {
         result = scanData;
-        // Handle the scanned data here
-        // Contoh:
-        // Navigator.pop(context);
-        // print(result.code);
+        // hasil setelah berhasil scan qr
       });
     });
   }

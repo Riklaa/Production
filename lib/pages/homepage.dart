@@ -9,8 +9,6 @@ List<ProductModel> products = [];
 bool isLoggedIn = false;
 
 class homepage extends StatefulWidget {
-  // Homepage({super.key});
-
   final String username;
   bool isLoggedIn;
 
@@ -106,8 +104,7 @@ class _HomeState extends State<homepage> {
                 SizedBox(height: 10),
                 ListView.separated(
                   physics: NeverScrollableScrollPhysics(),
-                  itemCount: ongoingProducts
-                      .length, // Menggunakan produk dengan status 'ongoing' saja
+                  itemCount: ongoingProducts.length,
                   shrinkWrap: true,
                   separatorBuilder: (context, index) => SizedBox(),
                   itemBuilder: (context, index) {
@@ -262,7 +259,7 @@ class _HomeState extends State<homepage> {
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Text(
-                          'Production Status Apps',
+                          'Production Monitoring Apps',
                           style: TextStyle(
                             fontWeight: FontWeight.w500,
                             fontSize: 15,

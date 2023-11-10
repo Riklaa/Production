@@ -30,7 +30,7 @@ class _SplashscreenState extends State<Splashscreen> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Text(
-              "Production Status Apps",
+              "Production Monitoring Apps",
               style: TextStyle(
                 fontSize: 25,
                 fontWeight: FontWeight.w800,

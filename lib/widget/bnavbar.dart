@@ -17,9 +17,6 @@ class _BottomState extends State<bottom> {
       isLoggedIn: isLoggedIn,
     ),
     history(),
-    // userprofile(
-    //   isLoggedIn: isLoggedIn,
-    // ),
   ];
   @override
   Widget build(BuildContext context) {
@@ -56,18 +53,6 @@ class _BottomState extends State<bottom> {
                   color: index_color == 1 ? Color(0xff0044C9) : Colors.grey,
                 ),
               ),
-              // GestureDetector(
-              //   onTap: () {
-              //     setState(() {
-              //       index_color = 2;
-              //     });
-              //   },
-              //   child: Icon(
-              //     Icons.account_circle_rounded,
-              //     size: 30,
-              //     color: index_color == 2 ? Color(0xff0044C9) : Colors.grey,
-              //   ),
-              // ),
             ],
           ),
         ),
